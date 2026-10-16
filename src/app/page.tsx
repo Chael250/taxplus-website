@@ -16,7 +16,7 @@ export default function Home() {
             <h1 className="text-4xl md:text-5xl lg:text-7xl font-[family-name:var(--font-heading)] text-white mb-4 leading-tight">
               Your Trusted Partners in
               <br />
-              <span className="text-[#C8A951]">Tax & Corporate Law</span>
+              <span className="text-[#C8A951]">Tax, Corporate &amp; Banking Law</span>
             </h1>
           </ScrollReveal>
           

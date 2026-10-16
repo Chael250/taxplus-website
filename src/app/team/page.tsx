@@ -33,12 +33,12 @@ export default function TeamPage() {
               <div className="flex flex-col md:flex-row gap-8 md:gap-16 items-start">
                 <div className="w-full md:w-1/3 flex flex-col items-center md:items-start text-center md:text-left">
                   <div className="w-48 h-48 rounded-full bg-[#1B2A4A] flex items-center justify-center mb-6 shrink-0 shadow-lg overflow-hidden">
-                    <img src="/images/team/hadidja-murangwa.png" alt="Senior Counsel Hadija Ndangiza Murangwa" className="w-full h-full object-cover" />
+                    <img src="/images/team/hadidja-murangwa.png" alt="Senior Counsel Hadija Murangwa" className="w-full h-full object-cover" />
                   </div>
                   <h3 className="font-playfair text-2xl font-bold text-[#1B2A4A] mb-2">
-                    Senior Counsel Hadija Ndangiza Murangwa
+                    Senior Counsel Hadija Murangwa
                   </h3>
-                  <p className="text-[#C8A951] font-semibold mb-4 text-lg">Founding Partner</p>
+                  <p className="text-[#C8A951] font-semibold mb-4 text-lg">Founder</p>
                   <div className="space-y-2 text-[15px] text-[#6B7280]">
                     <p><a href="mailto:hmurangwa@gmail.com" className="hover:text-[#1B2A4A] transition-colors">hmurangwa@gmail.com</a></p>
                     <p><a href="tel:+250788300959" className="hover:text-[#1B2A4A] transition-colors">+250 788 300 959</a></p>
@@ -180,7 +180,7 @@ export default function TeamPage() {
                   <div>
                     <h4 className="font-playfair text-xl font-bold text-[#1B2A4A] mb-3 border-b border-gray-200 pb-2">Biography</h4>
                     <p className="text-[#2D2D2D] leading-relaxed">
-                      Experienced senior legal practitioner with particular expertise in banking, commercial litigation, tax and customs law, corporate governance, contract law, regulatory compliance and ADR. Member of Rwanda Bar Association and East Africa Law Society.
+                      Experienced senior legal practitioner with particular expertise in banking, commercial litigation, tax and customs law, corporate governance, contract law, regulatory compliance and ADR. Registered advocate and member of the Rwanda Bar Association and East African Law Society, permitted to practice in all Rwandan courts up to the Supreme Court level, with 16 years of experience.
                     </p>
                   </div>
 
@@ -202,6 +202,7 @@ export default function TeamPage() {
                       <li>LL.B., National University of Rwanda</li>
                       <li>PG Diploma, ILPD</li>
                       <li>Certified Mediator</li>
+                      <li>Associate arbitrator; specialized drafter of legal documents in plain language</li>
                     </ul>
                   </div>
 
@@ -213,7 +214,7 @@ export default function TeamPage() {
                   <div>
                     <h4 className="font-playfair text-xl font-bold text-[#1B2A4A] mb-3 border-b border-gray-200 pb-2">Expertise</h4>
                     <div className="flex flex-wrap gap-2 mt-3">
-                      {["Banking & Financial Services", "Commercial Litigation", "Tax & Customs", "Corporate Governance", "Commercial Contracts", "Regulatory Compliance", "ADR", "Employment Law", "Regional Economic Integration"].map((tag, idx) => (
+                      {["Banking & Financial Services", "Commercial Litigation", "Tax & Customs", "Corporate Governance", "Commercial Contracts", "Regulatory Compliance", "ADR", "Employment Law", "Regional Economic Integration", "Transactional lawyer negotiator"].map((tag, idx) => (
                         <span key={idx} className="px-3 py-1 border border-[#C8A951] text-[#1B2A4A] text-sm rounded-full bg-white font-medium shadow-sm">
                           {tag}
                         </span>

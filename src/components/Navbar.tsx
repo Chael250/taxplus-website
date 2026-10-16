@@ -47,11 +47,7 @@ export default function Navbar() {
         <div className="flex items-center justify-between h-20">
           {/* Logo */}
           <Link href="/" className="flex items-center gap-3 group">
-            <div className="w-10 h-10 bg-gold rounded-lg flex items-center justify-center group-hover:bg-gold-light transition-colors">
-              <span className="text-navy font-bold text-lg font-[family-name:var(--font-heading)]">
-                T
-              </span>
-            </div>
+            <img src="/new-logo.svg" alt="Taxplus Chambers logo" className="w-10 h-10 object-contain" />
             <div className="flex flex-col">
               <span className="text-white font-bold text-lg tracking-wide font-[family-name:var(--font-heading)]">
                 TAXPLUS

@@ -62,8 +62,8 @@ export default function ContactPage() {
 
   const keyContacts = [
     {
-      name: 'Murangwa Ndangiza Hadidja',
-      title: 'Founding Partner',
+      name: 'Senior Counsel Hadija Murangwa',
+      title: 'Founder',
       email: 'hmurangwa@gmail.com',
       phone: '+250 788 300 959',
       initials: 'MH',
@@ -116,9 +116,10 @@ export default function ContactPage() {
                     </div>
                     <div>
                       <h3 className="font-serif text-[#1B2A4A] text-xl mb-1">Email</h3>
-                      <a href="mailto:taxpluschambers@gmail.com" className="text-gray-600 hover:text-[#C8A951] transition-colors">
-                        taxpluschambers@gmail.com
-                      </a>
+                      <div className="flex flex-col items-start gap-1">
+                        <a href="mailto:taxpluschambers@gmail.com" className="text-gray-600 hover:text-[#C8A951] transition-colors">taxpluschambers@gmail.com</a>
+                        <a href="mailto:mugirerwamfizijoseph@gmail.com" className="text-gray-600 hover:text-[#C8A951] transition-colors">mugirerwamfizijoseph@gmail.com</a>
+                      </div>
                     </div>
                   </div>
 
@@ -130,9 +131,10 @@ export default function ContactPage() {
                     </div>
                     <div>
                       <h3 className="font-serif text-[#1B2A4A] text-xl mb-1">Phone</h3>
-                      <a href="tel:+250788503984" className="text-gray-600 hover:text-[#C8A951] transition-colors">
-                        +250 788 503 984
-                      </a>
+                      <div className="flex flex-col items-start gap-1">
+                        <a href="tel:+250788640651" className="text-gray-600 hover:text-[#C8A951] transition-colors">+250 788 640 651</a>
+                        <a href="tel:+250788503984" className="text-gray-600 hover:text-[#C8A951] transition-colors">+250 788 503 984</a>
+                      </div>
                     </div>
                   </div>
 
