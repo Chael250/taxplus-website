@@ -124,8 +124,8 @@ export default function Footer() {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
                 </svg>
-                <span className="text-white/60 text-sm">
-                  Kigali, Rwanda
+                <span className="text-white/60 text-sm leading-relaxed">
+                  KN 05 Airport Road, Kimihurura, Floor B1, Aigle Blanc Building
                 </span>
               </li>
               <li className="flex items-start gap-3">
@@ -159,8 +159,8 @@ export default function Footer() {
           <p className="text-white/40 text-sm">
             © {new Date().getFullYear()} Taxplus Chambers Ltd. All rights reserved.
           </p>
-          <p className="text-white/40 text-sm">
-            Established 15th March 2018 · Kigali, Rwanda
+          <p className="text-white/40 text-sm leading-relaxed text-center sm:text-right max-w-md">
+            Established 15th March 2018 · KN 05 Airport Road, Kimihurura, Floor B1, Aigle Blanc Building
           </p>
         </div>
       </div>

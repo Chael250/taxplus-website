@@ -142,11 +142,11 @@ export default function Home() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-10">
             {[
               {
-                name: 'Hadija Ndangiza Murangwa',
-                title: 'Founding Partner',
+                name: 'Senior Counsel Hadija Murangwa',
+                title: 'Founder',
                 expertise: 'Taxation, customs, trade facilitation, regional integration.',
-                initials: 'HN',
-                image: '/images/team/hadidja-murangwa.png'
+                initials: 'HM',
+                image: ''
               },
               {
                 name: 'Felista Mubyeyi Kimanuka',

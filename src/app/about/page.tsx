@@ -28,7 +28,7 @@ export default function AboutPage() {
           <ScrollReveal delay={200}>
             <div className="prose prose-lg text-gray-700 mx-auto space-y-6">
               <p>
-                Taxplus Chambers Limited was formed on 15th March 2018 by Senior Counsels Felista Mubyeyi Kimanuka, Mugire R. Joseph and Murangwa Ndangiza Hadidja — three well distinguished legal practitioners and Tax experts.
+                Taxplus Chambers Limited was formed on 15th March 2018 by Senior Counsels Felista Mubyeyi Kimanuka, Mugire R. Joseph and Hadija Murangwa — three well distinguished legal practitioners and Tax experts.
               </p>
               <p>
                 The firm specializes in Tax, Corporate Business law, Banking and Finance, Insurance, Construction, Intellectual Property (IP), Mergers & Acquisitions (M&A), Energy, Mining, and Telecom. We also possess extensive experience in Public and Private Partnership (PPP) projects.
@@ -52,7 +52,7 @@ export default function AboutPage() {
                   <h3 className="text-3xl font-playfair font-bold text-[#1B2A4A]">Our Mission</h3>
                 </div>
                 <p className="text-lg text-gray-700 leading-relaxed">
-                  To offer our clients seamless service tailored to their needs, providing legal and business advisory within Rwanda with a one-stop-shop experience.
+                  To offer our clients seamless service tailored to their needs, providing legal and business advisory within Rwanda and worldwide with a one-stop-shop experience.
                 </p>
               </div>
             </ScrollReveal>

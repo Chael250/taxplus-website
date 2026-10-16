@@ -66,8 +66,8 @@ export default function ContactPage() {
       title: 'Founder',
       email: 'hmurangwa@gmail.com',
       phone: '+250 788 300 959',
-      initials: 'MH',
-      image: '/images/team/hadidja-murangwa.png',
+      initials: 'HM',
+      image: '',
     },
     {
       name: 'Felista Mubyeyi Kimanuka',
@@ -147,7 +147,7 @@ export default function ContactPage() {
                     </div>
                     <div>
                       <h3 className="font-serif text-[#1B2A4A] text-xl mb-1">Location</h3>
-                      <p className="text-gray-600">Kigali, Rwanda</p>
+                      <p className="text-gray-600 leading-relaxed">KN 05 Airport Road, Kimihurura, Floor B1, Aigle Blanc Building</p>
                     </div>
                   </div>
 
@@ -325,7 +325,7 @@ export default function ContactPage() {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
                 </svg>
               </div>
-              <h3 className="text-3xl font-serif text-white mb-2 tracking-wide">Kigali, Rwanda</h3>
+              <h3 className="text-lg md:text-2xl font-serif text-white mb-2 tracking-wide text-center max-w-xl">KN 05 Airport Road, Kimihurura, Floor B1, Aigle Blanc Building</h3>
               <p className="text-gray-300 font-medium">Interactive Map Placeholder</p>
             </div>
           </div>
