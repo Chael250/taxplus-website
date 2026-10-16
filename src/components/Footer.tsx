@@ -29,7 +29,7 @@ export default function Footer() {
           {/* About Column */}
           <div className="lg:col-span-1">
             <div className="flex items-center gap-3 mb-6">
-              <img src="/new-logo.svg" alt="Taxplus Chambers logo" className="w-10 h-10 object-contain" />
+              <img src="/new-logo.png" alt="Taxplus Chambers logo" className="w-10 h-10 object-contain" />
               <div className="flex flex-col">
                 <span className="text-white font-bold text-lg tracking-wide font-[family-name:var(--font-heading)]">
                   TAXPLUS

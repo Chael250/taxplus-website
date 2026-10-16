@@ -47,7 +47,7 @@ export default function Navbar() {
         <div className="flex items-center justify-between h-20">
           {/* Logo */}
           <Link href="/" className="flex items-center gap-3 group">
-            <img src="/new-logo.svg" alt="Taxplus Chambers logo" className="w-10 h-10 object-contain" />
+            <img src="/new-logo.png" alt="Taxplus Chambers logo" className="w-10 h-10 object-contain" />
             <div className="flex flex-col">
               <span className="text-white font-bold text-lg tracking-wide font-[family-name:var(--font-heading)]">
                 TAXPLUS
