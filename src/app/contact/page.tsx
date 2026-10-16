@@ -280,11 +280,11 @@ export default function ContactPage() {
             {keyContacts.map((contact, index) => (
               <ScrollReveal key={index} direction="up" delay={index * 100}>
                 <div className="bg-white p-8 rounded-lg shadow-sm hover:shadow-md transition-shadow border border-gray-100 flex flex-col items-center text-center h-full">
-                  <div className="w-24 h-24 rounded-full bg-[#1B2A4A] text-white flex items-center justify-center text-2xl font-serif mb-6 shadow-sm overflow-hidden">
+                  <div className="w-24 h-24 rounded-full bg-[#1B2A4A] flex items-center justify-center mb-6 shadow-sm overflow-hidden">
                     {contact.image ? (
                       <img src={contact.image} alt={contact.name} className="w-full h-full object-cover" />
                     ) : (
-                      contact.initials
+                      <span className="text-4xl font-bold text-[#C8A951] font-[family-name:var(--font-heading)]">{contact.initials}</span>
                     )}
                   </div>
                   <h3 className="text-xl font-serif text-[#1B2A4A] mb-2">{contact.name}</h3>

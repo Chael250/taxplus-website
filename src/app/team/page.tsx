@@ -33,16 +33,7 @@ export default function TeamPage() {
               <div className="flex flex-col md:flex-row gap-8 md:gap-16 items-start">
                 <div className="w-full md:w-1/3 flex flex-col items-center md:items-start text-center md:text-left">
                   <div className="w-48 h-48 rounded-full bg-[#1B2A4A] flex items-center justify-center mb-6 shrink-0 shadow-lg overflow-hidden">
-                    <div
-                      role="img"
-                      aria-label="Profile icon for Senior Counsel Hadija Murangwa"
-                      className="w-full h-full bg-[#F8F6F3] flex items-center justify-center"
-                    >
-                      <svg viewBox="0 0 120 120" className="w-28 h-28" aria-hidden="true">
-                        <circle cx="60" cy="40" r="22" fill="#C8A951" />
-                        <path d="M16 108c2-24 20-39 44-39s42 15 44 39c0 3-2 5-5 5H21c-3 0-5-2-5-5Z" fill="#C8A951" />
-                      </svg>
-                    </div>
+                    <span role="img" aria-label="HM" className="text-5xl font-bold text-[#C8A951] font-[family-name:var(--font-heading)]">HM</span>
                   </div>
                   <h3 className="font-playfair text-2xl font-bold text-[#1B2A4A] mb-2">
                     Senior Counsel Hadija Murangwa
